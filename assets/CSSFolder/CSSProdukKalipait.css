@@ -1,0 +1,110 @@
+/* TOP PART */
+
+/* MAIN PART */
+.production{
+    padding: 0;
+    overflow: auto;
+    height: auto;
+    
+}
+.custom-nav{
+    position: fixed;
+}
+
+.production nav{
+    display: block;
+    float: left;
+    width: 30%;
+    text-decoration: none;
+    overflow:  auto;
+    position: sticky;
+}
+
+.product-nav{
+    margin: 0;
+}
+
+.product-nav li a{
+    padding: 10px;
+}
+.product-nav a{
+    color: rgb(56, 54, 54);
+    text-decoration: none;
+}
+.product-nav li{
+    padding: 30px 30%;
+    list-style-type: none;
+}
+
+.sidebar{
+    text-align: center;
+    position: fixed;
+    background: linear-gradient(135deg,#70F570,#07F7F7);
+}
+
+.item-list{
+    float: right;
+    width: 70%;
+}
+.restricted::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.floating{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+#contentpesan{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: greenyellow;
+    
+}
+
+#contentpesan table{
+    padding:20px
+}
+
+#contentpesan td{
+    padding: 10px;
+    font-size: 30px;
+}
+
+td a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1024px){
+    .floating{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:480px)
+{
+    .floating{
+        width: 100%;
+    }
+
+    .product-nav li{
+        display: block;
+        padding: 20px 10px;
+    }
+
+    #contentpesan table{
+        padding: 5px
+    }
+    
+    #contentpesan td{
+        padding: 0;
+        font-size: 10px;
+    }
+    
+}
