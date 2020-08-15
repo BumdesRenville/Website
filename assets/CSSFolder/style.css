@@ -31,13 +31,10 @@ h2{
 }
 
 h3{
-    color:rgb(56, 54, 54);
     font-size: 32px;
 }
 
 .left{text-align:left;}
-
-.right{text-align: right;}
 
 .middle {
     text-align: center;
@@ -89,6 +86,10 @@ p{
     margin-top: 25px;
     background-color: rgba(104,211,136,1);
     box-shadow: 0px 0px 5px 5px rgba(104,211,136,1);
+}
+
+.part img{
+    width: 100%;
 }
 
 /* TOP PART */
@@ -249,6 +250,30 @@ h2{
     max-width: 70%;
 }
 
+section table{
+    justify-self: right;
+    font-size: 24px;
+}
+
+.table-image{
+    width: 5%;
+}
+
+table a{
+    color:rgb(56, 54, 54);
+}
+
+.customtable{
+    width: auto;    
+}
+
+.customtable p{
+    font-size: 28px;
+    border-spacing: 5px;
+    padding:5px
+}
+
+
 /* FOOTER PART */
 footer{
     padding: 25px;
@@ -348,6 +373,9 @@ footer .dikembangkan{
         
     }
 
+    .customtable p{
+        font-size: 20px;
+    }
     .namadesa{
         padding:20px 0px;
     }
@@ -371,6 +399,10 @@ footer .dikembangkan{
     }
     footer .dikembangkan{
         font-size: 1.5em;
+    }
+
+    section table{
+        font-size: 20px;
     }
 }
 
@@ -433,6 +465,17 @@ footer .dikembangkan{
 
     footer .dikembangkan{
         font-size: 1em;
+    }
+
+    .table-image{
+        width: 15%;
+    }
+
+    .customtable p{
+        font-size: 18px;
+    }
+    section table{
+        font-size: 18px;
     }
 }
 
