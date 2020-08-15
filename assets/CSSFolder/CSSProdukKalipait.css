@@ -55,7 +55,7 @@
 .floating{
     float: left;
     width: 25%;
-    padding: 20px;
+    
 }
 
 #contentpesan{
@@ -84,6 +84,7 @@ td a{
 @media screen and (max-width: 1024px){
     .floating{
         width: 50%;
+        padding: 20px;
     }
 }
 
