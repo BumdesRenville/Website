@@ -91,6 +91,15 @@ header{
     padding: 30px;
 }
 
+.Logoname{
+    display: flex;
+    flex-direction: column;
+}
+
+.thename{
+    flex-grow: 1;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -270,7 +279,12 @@ footer #section-b{
     text-align: left;
 }
 footer p{
-    padding: 30px;
+    padding: 10px;
+    color: rgb(56, 54, 54);
+}
+
+footer .dikembangkan{
+    font-size: 2em;
 }
 /* MEDIA PART */
 @media screen and (max-width: 1024px){
@@ -295,8 +309,8 @@ footer p{
         
         position: fixed;
         right: 0px;
-        height: 92vh;
-        top: 8vh;
+        height: 90vh;
+        top: 10vh;
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -340,6 +354,9 @@ footer p{
 
     .buttoncustom{
         font-size: 32px;
+    }
+    footer .dikembangkan{
+        font-size: 1.5em;
     }
 }
 
@@ -395,6 +412,10 @@ footer p{
     .product-nav li{
         display: block;
         padding: 20px 10px;
+    }
+
+    footer .dikembangkan{
+        font-size: 1em;
     }
 }
 
