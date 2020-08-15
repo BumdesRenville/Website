@@ -5,6 +5,7 @@ Perlu bantuan :
 +6289675265303 Alberto Sanjaya (Tim Bumi Iboe ITS)
 
 <br>
+/*
 <div class="floating">
                                 <h3>
                                     <!-- Nama Barang --> Kelapa
@@ -41,3 +42,4 @@ Perlu bantuan :
                                     </tr>
                                 </table>
                             </div>
+                            */
