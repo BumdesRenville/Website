@@ -225,6 +225,9 @@ h2{
     "a b";
 }
 
+.floating img{
+    max-width: 100%;
+}
 
 /* FOOTER PART */
 footer{

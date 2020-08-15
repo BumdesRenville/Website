@@ -14,7 +14,7 @@
 .production nav{
     display: block;
     float: left;
-    width: 30%;
+    width: 20%;
     text-decoration: none;
     overflow:  auto;
     position: sticky;
@@ -44,7 +44,7 @@
 
 .item-list{
     float: right;
-    width: 70%;
+    width: 80%;
 }
 .restricted::after{
     clear: both;
