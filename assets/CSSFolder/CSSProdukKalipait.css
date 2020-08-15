@@ -91,6 +91,7 @@ td a{
 {
     .floating{
         width: 100%;
+        padding: 40px;
     }
 
     .product-nav li{
