@@ -8,17 +8,16 @@
     
 }
 .custom-nav{
-    position: fixed;
-}
-
-.production nav{
+    text-align:left;
+    position: sticky;
+    width: 18%;
     display: block;
-    float: left;
-    width: 20%;
     text-decoration: none;
     overflow:  auto;
-    position: sticky;
+    float: left;
+    margin: 1%;
 }
+
 
 .product-nav{
     margin: 0;
@@ -98,6 +97,11 @@ td img{
     td img{
         width: 100%;
     }
+
+    .item-list{
+        width: 73%;
+        margin: 1%;
+    }
 }
 
 @media screen and (max-width:480px)
@@ -125,5 +129,13 @@ td img{
     }
     td img{
         width: 100%;
+    }
+
+    .custom-nav{
+        width: 28%;
+    }
+    .item-list{
+        width: 68%;
+        margin: 1%;
     }
 }
