@@ -42,10 +42,14 @@
 }
 
 .item-list{
+    background-color: rgba(0255,255,255,0.4);
     float: right;
     width: 78%;
     margin: 1%;
+    border-radius: 10px;
 }
+
+
 .restricted::after{
     clear: both;
     content: "";
@@ -53,8 +57,12 @@
 }
 
 .floating{
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
     float: left;
-    width: 25%;
+    width: 22%;
+    padding: 1%;
+    margin-left: 1%;
     
 }
 

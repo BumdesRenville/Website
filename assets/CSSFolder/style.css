@@ -22,15 +22,15 @@ body{
 }
 
 h1{
-    font-size: 72px;
+    font-size: 56px;
     color:rgb(56, 54, 54);
     
 }
 
 h2{
     font-size: 56px;
-    color:rgb(56, 54, 54);
-    text-shadow: 0px 0px 7px rgba(255,255,255,0.63);
+    color:rgb(255,255,255);
+    text-shadow: 2px 2px 10px rgba(56, 54, 54,0.7);
 }
 
 h3{
@@ -88,8 +88,8 @@ p{
     border-radius: 10px;
     padding: 40px;
     margin-top: 25px;
-    background-color: rgba(104,211,136,0.7);
-    box-shadow: 0px 0px 5px 5px rgba(104,211,136,1);
+    background-color: rgba(0255,255,255,0.4);
+    box-shadow: 0px 0px 5px 5px rgba(255,255,255,1);
 }
 
 /* TOP PART */
@@ -221,6 +221,7 @@ section p{
 }
 
 .selamat-datang{
+    padding:3%;
     background-image: linear-gradient(16deg, rgba(116, 116, 116,0.02) 0%, rgba(116, 116, 116,0.02) 25%,transparent 25%, transparent 96%,rgba(177, 177, 177,0.02) 96%, rgba(177, 177, 177,0.02) 100%),linear-gradient(236deg, rgba(148, 148, 148,0.02) 0%, rgba(148, 148, 148,0.02) 53%,transparent 53%, transparent 59%,rgba(56, 56, 56,0.02) 59%, rgba(56, 56, 56,0.02) 100%),linear-gradient(284deg, rgba(16, 16, 16,0.02) 0%, rgba(16, 16, 16,0.02) 46%,transparent 46%, transparent 71%,rgba(181, 181, 181,0.02) 71%, rgba(181, 181, 181,0.02) 100%),linear-gradient(316deg, rgba(197, 197, 197,0.02) 0%, rgba(197, 197, 197,0.02) 26%,transparent 26%, transparent 49%,rgba(58, 58, 58,0.02) 49%, rgba(58, 58, 58,0.02) 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
 }
 h2{
@@ -274,10 +275,12 @@ table a{
 .customtable p{
     font-size: 28px;
     border-spacing: 5px;
-    padding:5px
+    padding:5px;
 }
 
-
+td a{
+    text-decoration: none;
+}
 /* FOOTER PART */
 footer{
     padding: 25px;
