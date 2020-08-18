@@ -93,6 +93,20 @@ td a{
 td img{
     width: 50%;
 }
+
+
+/* FORM PART */
+
+
+#honeypot{
+    display: none;
+}
+.modiv-form{
+    width: 100%;
+}
+
+
+
 @media screen and (max-width: 1024px){
     .floating{
         width: 50%;
