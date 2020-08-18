@@ -60,9 +60,9 @@
     background-color: rgb(255,255,255);
     border-radius: 10px;
     float: left;
-    width: 22%;
+    width: 23%;
     padding: 1%;
-    margin-left: 1%;
+    margin: 1%;
     
 }
 
@@ -109,7 +109,7 @@ td img{
 
 @media screen and (max-width: 1024px){
     .floating{
-        width: 50%;
+        width: 48%;
         padding: 20px;
     }
     #contentpesan td{
@@ -128,7 +128,7 @@ td img{
 @media screen and (max-width:480px)
 {
     .floating{
-        width: 100%;
+        width: 98%;
         padding: 5% 20%;
     }
 
