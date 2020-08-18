@@ -105,8 +105,18 @@ td img{
     width: 100%;
 }
 
+fieldset{
+    width: 100%;
+    border-style: none;
+}
 
-
+label{
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(255,255,255,1);
+}
+textarea{
+    width: 100%;
+}
 @media screen and (max-width: 1024px){
     .floating{
         width: 48%;
