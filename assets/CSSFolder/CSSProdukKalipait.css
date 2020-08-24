@@ -1,24 +1,35 @@
+h3{
+    color: white;
+    padding-left: 1%;
+}
 /* TOP PART */
 
 /* MAIN PART */
+
 .production{
     padding: 0;
     overflow: auto;
     height: auto;
     
 }
+
+.flex-ing{
+    display: flex;
+}
 .custom-nav{
     text-align:left;
     position: sticky;
     width: 18%;
-    display: block;
     text-decoration: none;
-    overflow:  auto;
-    float: left;
     margin: 1%;
-    height: auto;
 }
 
+.item-list{
+    background-color: rgba(0255,255,255,0.4);
+    width: 78%;
+    margin: 1%;
+    border-radius: 10px;
+}
 
 .product-nav{
     margin: 0;
@@ -42,13 +53,7 @@
     background: linear-gradient(135deg,#70F570,#07F7F7);
 }
 
-.item-list{
-    background-color: rgba(0255,255,255,0.4);
-    float: right;
-    width: 78%;
-    margin: 1%;
-    border-radius: 10px;
-}
+
 
 
 .restricted::after{
